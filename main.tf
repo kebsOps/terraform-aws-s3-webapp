@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "bucket" {
+resource "aws_s3_bucket" "mybucket" {
   bucket_prefix = "${var.prefix}-${var.name}"
 
   force_destroy = true
